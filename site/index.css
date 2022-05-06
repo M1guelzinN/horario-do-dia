@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: auto;
+    background-color: lightgray;
+}
+.forma-up{
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+}
+.forma-down{
+    
+}
