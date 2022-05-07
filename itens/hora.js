@@ -6,9 +6,13 @@ let min = MIN.getMinutes()
 let mostrar = window.document.querySelector('div.hora')
     mostrar.innerHTML = `${hora}:${min}`
 
-if(hora >= 5){
+    // horário do let.getHours
+if(hora <= 5){
+
 }
 
+
+    // horário  do input 
 function mudar(){
     let puxad = document.querySelector('#inph')
     let puxad1 = document.querySelector('#inpm')
@@ -28,7 +32,7 @@ function mudar(){
     }
     else if(valorDeH <= 5){
         saudac.innerHTML = 'Está de madrugada'
-        bg.style.backgroundImage = "url('../itens/img/madrugada.jpg')"
+        bg.style.backgroundImage = "url('itens/img/madrugada.jpg')"
 
         colorbg.style.background = 'rgb(19, 32, 54)'
         colorbg1.style.background = 'rgb(19, 32, 54)'
