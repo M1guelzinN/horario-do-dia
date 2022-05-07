@@ -22,9 +22,9 @@ main{
     justify-content: space-between;
     width: 100%;
     height: 50vh;
-    background-color: white;
+    background-color: rgb(50, 255, 255);
 
-    clip-path: polygon(0% 100%, 100% 50%, 100% 0%, 0% 0%);
+    clip-path: polygon(0% 70%, 100% 50%, 100% 0%, 0% 0%);
 }
 h1{
     padding: 50px ;
@@ -32,7 +32,7 @@ h1{
     font-family: "Bebas Neue";
     font-size: 3em;
     letter-spacing: 2px;
-    color: gray;
+    color: rgb(255, 255, 255);
 }
 form{
     float: left;
@@ -41,26 +41,37 @@ form{
     justify-content: center;
 }
 input{
-    
     width: 100%;
     padding: 5px 0;
-    margin: 10px;
+    margin: 10px 0px 10px 40px;
     border: solid 1px rgba(128, 128, 128, 0.247);
     text-align: center;
     background: none;
     transform: translateY(-200%);
     border-radius: 50px;
 }
+.bg-img{
+    position: absolute;
+    top: 25%;
+    z-index: -2;
+    transform: translateY(-0%);
+    width: 100%;
+    height: 60%;
+    background-image: url('/site/imagem/bom-dia.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
 .forma-down{
     position: absolute;
     width: 100%;
-    height: 60vh;
+    height: 30vh;
     bottom: 0;
     right: 0;
 
-    clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 100% 30%);
+    clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 0% 55%);
     transform: translateY(-5%);
-    background-color: rgb(34, 34, 34); 
+    background-color: rgb(0, 197, 197); 
 }
 .hora{
     position: absolute;
@@ -73,8 +84,8 @@ input{
 }
 .cortesia{
     position: absolute;
-    bottom: 7%;
-    right: 20%;
+    bottom: 10%;
+    right: 35%;
     color: white; 
     font-family: "Great Vibes" ;
     font-size: 3em;
@@ -89,6 +100,9 @@ footer{
     transform: translate(-50%, 0 );
     padding: 10px 0;
     
-    background: rgba(0, 0, 0, 1);  
+    background: rgb(10, 10, 10);  
     color:white; 
+}
+html{
+    color: rgb(19, 72, 97);
 }
