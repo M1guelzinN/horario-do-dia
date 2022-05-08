@@ -84,4 +84,6 @@ function mudar(){
         colorbg.style.background = 'rgb(59, 62, 104)'
         colorbg1.style.background = 'rgb(59, 62, 104)'
     }
+    puxad.value = ''
+    puxad1.value = ''
 }
