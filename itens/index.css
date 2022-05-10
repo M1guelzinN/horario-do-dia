@@ -1,11 +1,10 @@
 @charset "UTF-8";
-
-
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Staatliches&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
+
 body{
     position: relative;
     width: 100vw;
@@ -45,18 +44,20 @@ input{
     padding: 5px 0;
     margin: 10px 0px 10px 40px;
     border: solid 1px rgba(128, 128, 128, 0.247);
-    text-align: center;
     background: none;
-    transform: translateY(-200%);
     border-radius: 50px;
+
+    transform: translateY(-200%);
+    text-align: center;
 }
 .bg-img{
     position: absolute;
+    transform: translateY(-0%);
     top: 25%;
     z-index: -2;
-    transform: translateY(-0%);
     width: 100%;
     height: 60%;
+
     background-image: url('img/bom-dia.jpg');
     background-position: center center;
     background-attachment: fixed;
@@ -78,29 +79,32 @@ input{
     bottom: 20%;
     right: 5%;
     color: white;
+
     font-family: "Staatliches" ;
     font-size: 4em;
     letter-spacing: 3px;
 }
-.cortesia{
+.comprimentar{
     position: absolute;
     bottom: 10%;
     right: 35%;
     color: white; 
+
     font-family: "Great Vibes" ;
     font-size: 3em;
 }
 
 footer{
-    width: 100%;
     position: absolute;
+    width: 100%;
     bottom: -18px;
     left: 50%;
-    text-align: center;
     transform: translate(-50%, 0 );
-    padding: 10px 0;
-    
+
+    padding: 10px 0;    
     background: rgb(10, 10, 10);  
+
+    text-align: center;
     color:rgba(255, 255, 255, 0.801);
     font-family: Arial, sans-serif;
 }
