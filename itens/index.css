@@ -50,12 +50,13 @@ input{
     border-left: none;
     border-right: none;
     border-bottom: solid 1px rgba(255, 255, 255, 0.405);
-    background: none;
     outline: none;
+    background: none;
 
     transform: translateY(-200%);
     text-align: center;
     font-family: "Bebas Neue";
+    color: white;
 }
 input:nth-child(3){
     width: 100%;
