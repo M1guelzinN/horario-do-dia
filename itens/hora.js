@@ -84,8 +84,8 @@ else if(valorDeHora <= 23){
     comp.innerHTML = 'Boa noite'
     Img.style.backgroundImage = "url('itens/img/boa-noite.jpg')"
 
-    formUp.style.background = 'rgb(76, 43, 91)'
-    formDown.style.background = 'rgb(76, 43, 91)'
+    formUp.style.background = 'rgb(56, 43, 91)'
+    formDown.style.background = 'rgb(56, 43, 91)'
 }
     inputHora.value = ''
     inputMin.value = ''

@@ -59,12 +59,12 @@ input{
 }
 input:nth-child(3){
     width: 100%;
-    padding: 7px;
+    padding: 5px;
     margin: 30px 0 0px 40px;
     border: none;
     outline: none;
     background: rgba(0, 0, 0, 0.23);
-    border-radius: 20px;
+    border-radius: 10px;
     
     transform: translateY(-200%);
     text-align: center;
@@ -98,9 +98,11 @@ input:nth-child(3){
 }
 .hora{
     position: absolute;
-    bottom: 20%;
+    bottom: 22%;
     right: 5%;
-    color: white;
+    color: rgba(0, 0, 0, 0.416);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.198); 
+
 
     font-family: "Staatliches" ;
     font-size: 4em;
@@ -110,7 +112,8 @@ input:nth-child(3){
     position: absolute;
     bottom: 10%;
     right: 35%;
-    color: white; 
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.25); 
 
     font-family: "Great Vibes" ;
     font-size: 3em;
@@ -140,7 +143,7 @@ a:hover{text-decoration: underline;}
 
 @media (max-width: 500px) {
     h1{
-        font-size: 1.5em;
+        font-size: 2em;
     }
     input{
         width: 60%;
