@@ -18,29 +18,29 @@ if(hora <= 5){
     comp.innerHTML = 'Está de madrugada'
     Img.style.backgroundImage = "url('itens/img/madrugada.jpg')"
 
-    formUp.style.background = 'rgb(19, 32, 54)'
-    formDown.style.background = 'rgb(19, 32, 54)'
+    formUp.style.background = 'rgb(20, 15, 64)'
+    formDown.style.background = 'rgb(20, 15, 64)'
 } 
 else if(hora <= 11){
     comp.innerHTML = 'Bom dia'
     Img.style.backgroundImage = "url('itens/img/bom-dia.jpg')"
     
-    formUp.style.background = 'rgb(0, 197, 197'
-    formDown.style.background = 'rgb(0, 197, 197)'
+    formUp.style.background =   'rgb(0, 157, 63)'
+    formDown.style.background = 'rgb(0, 157, 63)'
 } 
 else if(hora <= 17){
     comp.innerHTML = 'Boa tarde'
     Img.style.backgroundImage = "url('itens/img/boa-tarde.jpg')"
 
-    formUp.style.background = 'rgb(239, 101, 0)'
-    formDown.style.background = 'rgb(239, 101, 0)'
+    formUp.style.background = 'rgb(210, 86, 11)'
+    formDown.style.background = 'rgb(210, 86, 11)'
 } 
 else if(hora <= 23){
     comp.innerHTML = 'Boa noite'
     Img.style.backgroundImage = "url('itens/img/boa-noite.jpg')"
 
-    formUp.style.background = 'rgb(59, 62, 104)'
-    formDown.style.background = 'rgb(59, 62, 104)'
+    formUp.style.background = 'rgb(76, 43, 91)'
+    formDown.style.background = 'rgb(76, 43, 91)'
 }
 
 // Valor digitado  pelo usuário
@@ -63,29 +63,29 @@ else if(valorDeHora <= 5){
     comp.innerHTML = 'Está de madrugada'
     Img.style.backgroundImage = "url('itens/img/madrugada.jpg')"
 
-    formUp.style.background = 'rgb(19, 32, 54)'
-    formDown.style.background = 'rgb(19, 32, 54)'
+    formUp.style.background = 'rgb(20, 15, 64)'
+    formDown.style.background = 'rgb(20, 15, 64)'
 }
 else if(valorDeHora <= 11){
     comp.innerHTML = 'Bom dia'
     Img.style.backgroundImage = "url('itens/img/bom-dia.jpg')"
-    formUp.style.background = 'rgb(0, 197, 197'
-    formDown.style.background = 'rgb(0, 197, 197)'
-    
+
+    formUp.style.background =   'rgb(0, 157, 63)'
+    formDown.style.background = 'rgb(0, 157, 63)'
 }
 else if(valorDeHora <= 17){
     comp.innerHTML = 'Boa tarde'
     Img.style.backgroundImage = "url('itens/img/boa-tarde.jpg')"
 
-    formUp.style.background = 'rgb(239, 101, 0)'
-    formDown.style.background = 'rgb(239, 101, 0)'
+    formUp.style.background = 'rgb(210, 86, 11)'
+    formDown.style.background = 'rgb(210, 86, 11)'
 }
 else if(valorDeHora <= 23){
     comp.innerHTML = 'Boa noite'
     Img.style.backgroundImage = "url('itens/img/boa-noite.jpg')"
 
-    formUp.style.background = 'rgb(59, 62, 104)'
-    formDown.style.background = 'rgb(59, 62, 104)'
+    formUp.style.background = 'rgb(76, 43, 91)'
+    formDown.style.background = 'rgb(76, 43, 91)'
 }
     inputHora.value = ''
     inputMin.value = ''
