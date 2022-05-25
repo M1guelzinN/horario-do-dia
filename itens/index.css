@@ -102,10 +102,7 @@ input:nth-child(3){
     position: absolute;
     bottom: 22%;
     right: 5%;
-    color: rgba(0, 0, 0, 0.316);
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.298); 
-
-
+    color: rgb(174, 174, 174);
     font-family: "Staatliches" ;
     font-size: 4em;
     letter-spacing: 3px;
